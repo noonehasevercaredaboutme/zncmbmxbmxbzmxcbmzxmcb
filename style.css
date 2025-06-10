@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: red;
+}
+
+.background{
+    position: absolute;
+    left: 0;
+    color: red;
+}
+
+.main{
+    margin-left: 80px;
+}
+
+.japanese{
+    position: absolute;
+    width: 50%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.hidden-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.3);
+    letter-spacing: 2px;
+    font-family: monospace;
+    text-align: center;
+    z-index: 999;
+    pointer-events: none;
+}
